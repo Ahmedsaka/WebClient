@@ -1,7 +1,7 @@
 import org.springframework.lang.Nullable;
 
 public class Product {
-   // @Nullable
+    @Nullable
     private String id;
     private String name;
     private Double price;
@@ -12,12 +12,12 @@ public class Product {
         this.price = price;
     }
 
-//    @Nullable
+    @Nullable
     public String getId() {
         return id;
     }
 
-    public void setId(/*@Nullable*/ String id) {
+    public void setId(@Nullable String id) {
         this.id = id;
     }
 
